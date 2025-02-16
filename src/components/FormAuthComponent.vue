@@ -22,7 +22,7 @@
           "
         >
           <div class="block mx-auto text-white">
-            <h1>Logo</h1>
+            <h1>{{ isRegistered ? "Login" : "Register" }}</h1>
           </div>
           <AlertMessage
             v-if="authStores.errorAlert"

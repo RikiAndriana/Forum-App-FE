@@ -3,6 +3,7 @@ import HomeView from "@/views/HomeView.vue";
 import DashboardView from "@/views/DashboardView.vue";
 import { useAuthStore } from "@/stores/authStores";
 import DetailQuestion from "@/views/DetailQuestion.vue";
+import About from "@/views/About.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -24,6 +25,11 @@ const router = createRouter({
       path: "/question/:id",
       name: "DetailQuestion",
       component: DetailQuestion,
+    },
+    {
+      path: "/about",
+      name: "About",
+      component: About,
     },
   ],
 });

@@ -32,7 +32,7 @@
             >
               <div class="flex align-items-center gap-2">
                 <Avatar
-                  image="https://primefaces.org/cdn/primevue/images/avatar/amyelsner.png"
+                  image="https://i.pinimg.com/736x/5f/91/41/5f91413c8a9e766a5139c6cfe5caa837.jpg"
                   size="small"
                   shape="circle"
                 />
